@@ -1,0 +1,144 @@
+  
+  *{
+    margin: 0;
+  }
+  
+  
+  /* Font */
+  .open-sans-normal {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+  
+  
+  /* shared classes */
+  .text-primary{
+    color: #FD6E0A;
+  }
+
+  .dark-2{
+    color:#474747;
+  }
+
+  .dark-3{
+    color: #757575;
+  }
+
+  .btn-primary{
+    background-color: #FD6E0A;
+    font-family: "Open Sans", serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    /* width: 150px;
+    Height: 64px; */
+    padding: 18px 35px 18px 35px;
+    border-radius: 5px;
+    border: none;
+    
+  }
+
+  /*== end of shared class== */
+
+
+  /* Header */
+  .header{
+    background-image: url(../assets/images/developer.png), url(../assets/images/header_bg.png);
+    background-repeat: no-repeat;
+    margin-left: 23px;
+    background-position: top left, bottom 20% right;
+    
+    
+    
+  }
+
+/* Nav Bar */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 230px 0 226px;
+    margin-bottom: 185px;
+
+
+}
+
+
+
+
+  .nav-title{
+    font-weight: 800;
+    font-size: 45px;
+  }
+
+
+
+  nav ul li{
+    list-style: none;
+    margin-right: 51px;
+  }
+
+  nav li a{
+    text-decoration: none;
+    font-family: "Open Sans", serif;
+    font-size: 20px;
+  }
+
+  nav ul{
+    display: flex;
+    align-items: center;
+  }
+
+
+  /* Banner  */
+
+  .banner{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 0,35px,0,200px; */
+    margin-left: 230px;
+    margin-right: 38px;
+   
+  }
+
+ .banner-greetings{
+    font-family: "Open Sans", serif;
+    font-weight: 600;
+    font-size: 45px;
+   margin-bottom: 5px;
+ }
+
+ .banner-title {
+    font-family: "Open Sans", serif;
+    font-weight: bold;
+    font-size: 85px;
+    margin-bottom: 20px;
+ }
+
+
+ .banner-description{
+    font-family: "Open Sans", serif;
+    font-weight: normal;
+    font-size: 18px;
+    margin-bottom: 30px;
+ }
+
+ .banner-profile-pic{
+    width: 584px;
+    
+    margin-top: 50px;
+    margin-bottom: 110px;
+    /* display: flex; */
+    /* align-items: bottom right; */
+    /* justify-content: bottom 20% right; */
+ }
+
+
+ .banner-content{
+    max-width: 585px;
+ }
