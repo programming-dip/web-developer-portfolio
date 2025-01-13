@@ -150,6 +150,10 @@ nav {
     margin-bottom: 30px;
  }
 
+ .banner .btn-primary{
+    margin-right: 30px;
+ }
+
  .banner-profile-pic{
     width: 584px;
     
@@ -316,4 +320,59 @@ nav {
   margin-top: 30px;
 }
 
+
+/* footer */
+
+footer{
+  display: flex;
+  justify-content: center;
+  padding: 130px 230px;
+  gap: 100px;
+}
+.footer-column .section-title {
+  text-align: left;
+}
+
+
+.footer-column p{
+
+  width: 750px;
+  
+}
+
+.footer-column .social-logo img{
+  padding-right: 20px;
+}
+
+
+.footer-column input[type="text"], .footer-column input[type="email"]{
+  font-size: 16px;
+  font-weight: normal;
+  color: #757575;
+  margin-bottom: 24px;
+  background-color: white;
+  height: 64px;
+  border-radius: 5px;
+  border:none;
+  display: block;
+  padding: 10px 15px;
+  width: 100%;
+  
+}
+
+
+.footer-column textarea{
+  font-size: 16px;
+  font-weight: normal;
+  color: #757575;
+  margin-bottom: 24px;
+  background-color: white;
+  height: 180px;
+  border-radius: 5px;
+  border:none;
+  display: block;
+  padding: 10px 15px;
+  width: 100%;
+  
+}
 
