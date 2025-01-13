@@ -1,7 +1,16 @@
   
   *{
     margin: 0;
+    padding: 0;
+    
+    
   }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    
+}
   
   
   /* Font */
@@ -10,8 +19,8 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
+    
+     
   }
 
   
@@ -21,12 +30,20 @@
     color: #FD6E0A;
   }
 
+  .dark-1{
+    color: #181818;
+  }
+
   .dark-2{
     color:#474747;
   }
 
   .dark-3{
     color: #757575;
+  }
+
+  .secondary-bg{
+    background-color:#FFF8F3;
   }
 
   .btn-primary{
@@ -50,8 +67,11 @@
   .header{
     background-image: url(../assets/images/developer.png), url(../assets/images/header_bg.png);
     background-repeat: no-repeat;
-    margin-left: 23px;
-    background-position: top left, bottom 20% right;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 130px; 
+    background-position: top left 3%, bottom  right;
+    
     
     
     
@@ -62,8 +82,9 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 230px 0 226px;
-    margin-bottom: 185px;
+   
+    padding: 50px 230px 185px 226px;
+    
 
 
 }
@@ -102,7 +123,7 @@ nav {
     justify-content: space-between;
     /* margin: 0,35px,0,200px; */
     margin-left: 230px;
-    margin-right: 38px;
+    /* margin-right: 38px; */
    
   }
 
@@ -131,14 +152,78 @@ nav {
  .banner-profile-pic{
     width: 584px;
     
-    margin-top: 50px;
-    margin-bottom: 110px;
-    /* display: flex; */
-    /* align-items: bottom right; */
-    /* justify-content: bottom 20% right; */
+    /* margin-top: 50px; */
+    /* margin-bottom: 110px; */
+    display: flex; 
+    align-items: bottom right;
+    
  }
+
 
 
  .banner-content{
     max-width: 585px;
+ }
+
+
+ /* main section */
+
+ main{
+  display: flex;
+  align-items: center;
+  padding:150px 15%;
+ }
+
+ .section-title{
+  font-family: "Open Sans", serif;
+  font-size: 35px;
+  font-weight: bold;
+ }
+
+ .section-description{
+  font-family: "Open Sans", serif;
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 30px;
+ }
+
+ /* about styles */
+ .about{
+  padding: 10%;
+  
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 130px;
+ }
+
+ .about-container{
+  background: white;
+  border: solid 1px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+ }
+
+ .about h3{
+  
+  padding-bottom: 30px;
+ }
+
+ .about-table{
+  text-align: center;
+  font-family: "Open Sans", serif;
+  
+ }
+
+ .about-table .table-header{
+  font-size: 20px;
+  font-weight: normal;
+ 
+  
+ }
+
+ .about-table .table-data{
+  font-size: 20px;
+  font-weight: bold;
+ 
  }
